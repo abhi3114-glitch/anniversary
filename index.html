@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Anniversary My Love 💖</title>
+    <link rel="stylesheet" href="css/style.css">  <!-- Make sure style.css is in the 'css' folder -->
+</head>
+<body>
+
+    <!-- Romantic Header -->
+    <div class="header">
+        <h1>Happy Anniversary, My Khargosh! 🐰💖</h1>
+        <p>Abhi ❤️ Taru - Forever Together</p>
+    </div>
+
+    <!-- Envelope Animation & Slideshow -->
+    <div class="envelope-container" onclick="openEnvelope()">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="letter">
+                <p>💌 Click to open and see our memories! 💌</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden Image Gallery (Appears when Envelope Opens) -->
+    <div class="photo-gallery hidden">
+        <img src="images/pic1.jpg" class="photo hidden" alt="Memory 1">
+        <img src="images/pic2.jpg" class="photo hidden" alt="Memory 2">
+        <img src="images/pic3.jpg" class="photo hidden" alt="Memory 3">
+    </div>
+
+    <!-- AI Bunny Section -->
+    <div class="bunny-container">
+        <img src="images/bunny.gif" id="bunny" alt="Cute AI Bunny">  <!-- Make sure bunny.gif is in 'images' -->
+    </div>
+    <audio id="customVoice">
+        <source src="audio/abhi-message.mp3" type="audio/mpeg">  <!-- Make sure abhi-message.mp3 is in 'audio' -->
+    </audio>
+    <button id="bunnyTalk">🐰 Click Me, Taru!</button>
+
+    <script src="js/script.js"></script>  <!-- Make sure script.js is in 'js' -->
+</body>
+</html>
